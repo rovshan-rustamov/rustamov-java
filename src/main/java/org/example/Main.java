@@ -36,7 +36,7 @@ public class Main {
         // Task 1.3
         List<Integer> numbers = new ArrayList<>();
 
-        System.out.println("Enter numbers for the array (press q to finish):"); // any non-integer would stop but for simplicity just used q
+        System.out.println("Enter numbers for the array (Enter q to finish):"); // any non-integer would stop but for simplicity just used q
         while (scanner.hasNextInt()) {
             numbers.add(scanner.nextInt());
         }
@@ -54,7 +54,7 @@ public class Main {
         Can this sequence be considered correct?
         If the answer to the previous question is “no”, then what needs to be changed in it to make it correct?
 
-        Answer: No, it can't be considered correct. Type mismatch: ( closed by ] + Invalid nesting order
+        Answer: No, it can't be considered correct. There is a type mismatch ( closed by ]
 
         The minimal fix is to change ] at 12th index to )
         [((())()(()))]
