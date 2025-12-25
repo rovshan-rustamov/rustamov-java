@@ -42,9 +42,9 @@ public class Main {
         }
 
         System.out.println("Multiples of 3:");
-        numbers.stream().
-                filter(n -> n % 3 == 0).
-                forEach(System.out::println);
+        numbers.stream()
+                .filter(n -> n % 3 == 0)
+                .forEach(System.out::println);
         scanner.close();
 
         /*Task 2
